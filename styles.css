@@ -1,0 +1,150 @@
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+}
+
+h1 {
+    margin-top: 0;  
+    font-family: 'Sacramento', cursive; 
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    color: #66BFBF;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: #66BFBF;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+P {
+    line-height: 2;
+}
+
+
+hr {
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+a {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #EAF6F6;
+    transition: 0.2s ease; 
+}
+
+.top-container {
+    margin: 0;
+    background-color: rgb(183, 247, 246);
+    position: relative;
+    padding-top: 200px;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+.bottom-cloud {
+    position: absolute;
+    bottom: 400px;
+    left: 600px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 600px;
+    top: 50px;
+}
+
+.middle-container {
+    margin: 100px 0;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+
+
+}
+
+.skills-person{
+    width: 25%;
+    border-radius: 100%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skills-code{
+    width: 25%;
+    border-radius: 100%;
+    float: right;
+    margin-left: 30px;
+}
+
+.btn {
+    width: 200px;
+    height: 200px;
+    background-color: #66BFBF;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: 10%;
+    color: white;
+    border: solid black 2px;
+    border-radius: 100px;
+    font-weight: bolder;
+    line-height: 2;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 1px 1px 2px 0 #000000;
+
+}
+
+.btn:hover {
+    background-color: #11999E;
+    transition: 0.5s ease;
+    text-decoration: none;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.bottom-container {
+   background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
